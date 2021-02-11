@@ -10,10 +10,32 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Hello, world!</title>
+    <title>Magic 8 Ball</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <header class="container-fluid my-4">
+      <h1 class="display-4 text-center">Magic 8 Ball</h1>
+    </header>
+
+    <main class="container col-4">
+      <form>
+        <div class="form-group">
+          <label for="nameFormControlInput1">Name</label>
+          <input type="text" class="form-control" id="nameFormControlInput" placeholder="Merlin">
+          <label for="questionFormControlInput">Question</label>
+          <input type="text" class="form-control" id="questionFormControlInput" placeholder="Ask your question">
+        </div>
+        <button class="btn btn-primary my-4" type="submit">Submit question</button>
+      </form>
+      <section>
+        <h1>I like tacos!</h1>
+      </section>
+    </main>
+
+    <footer class="container-fluid"></footer>
+
+    <script src="js/script.js"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
