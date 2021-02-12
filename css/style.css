@@ -1,4 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
+main.parallax {
+    /* The image used */
+    background-image: url(../img/pexels-javon-swaby-2814198.jpg);
+
+    /* Set a specific height */
+    height: 635px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
