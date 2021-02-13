@@ -19,21 +19,55 @@
     </header>
 
     <main class="parallax">
-      <form class="container py-5">
+      <form id="userInput" class="container py-5">
         <div class="row d-flex justify-content-center">
           <div class="form-group col-6">
-            <label for="name">Name</label>
-            <input type="name" class="form-control" id="name" placeholder="Merlin">
-          </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="form-group col-6">
-            <label for="question">Question</label>
-            <input type="question" class="form-control" id="question" placeholder="Ask your question here.">
+            <label for="question" class="h3">Question</label>
+            <input type="question" class="form-control mt-2" id="question" placeholder="Ask me anything!">
+            <button type="button" class="btn btn-danger mt-3">Ask away</button>
+            <p >Users question</p>
+            <button id="resetBtn" class="btn btn-danger">Try again</button>
           </div>
         </div>
       </form>
+
+      <div id="answers" class="row d-flex justify-content-center">
+          <img src="img/magic8ball_start.png">
+      </div>
     </main>
+
+    <!--
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="userInput">
+      <input type="text" placeholder="Ask a question..." />
+      <button>Ask!</button>
+      <p style="display: none;">Users question</p>
+      <button style="display: none;">Try again</button>
+    </div>
+
+    <br />
+    <br />
+
+    <div id="answers">
+      <a>
+        <img style="width: 300px; height: 300px;" src="img/laptop.jpg" />
+      </a>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
+
+
+    -->
 
     <script src="js/script.js"></script>
 

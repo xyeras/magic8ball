@@ -3,11 +3,24 @@ main.parallax {
     background-image: url(../img/pexels-javon-swaby-2814198.jpg);
 
     /* Set a specific height */
-    height: 635px;
+    height: 700px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+p {
+    display: none;
+}
+
+button#resetBtn {
+    display: none;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
