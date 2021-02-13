@@ -43,6 +43,12 @@ button.addEventListener("click", function () {
   
   // 3. Set the innerText of the p tag to whatever was in the input field
   paragraph.innerText = `You asked: ${text}`;
+
+  paragraph.style.backgroundColor = "white";
+  paragraph.style.marginTop = "10px";
+  paragraph.style.height = "35px";
+  paragraph.style.padding = "5px";
+  paragraph.style.borderRadius = "3px";
   
   // 4. Set display: block on the p tag
   paragraph.style.display = "block";
