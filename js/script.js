@@ -45,10 +45,11 @@ button.addEventListener("click", function () {
   paragraph.innerText = `You asked: ${text}`;
 
   paragraph.style.backgroundColor = "white";
-  paragraph.style.marginTop = "10px";
-  paragraph.style.height = "35px";
-  paragraph.style.padding = "5px";
-  paragraph.style.borderRadius = "3px";
+  paragraph.style.marginTop = "9px";
+  paragraph.style.height = "37px";
+  paragraph.style.padding = "7px";
+  paragraph.style.borderRadius = "4px";
+  paragraph.style.borderColor = "gray";
   
   // 4. Set display: block on the p tag
   paragraph.style.display = "block";
