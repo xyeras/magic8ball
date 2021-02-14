@@ -49,7 +49,6 @@ button.addEventListener("click", function () {
   paragraph.style.height = "37px";
   paragraph.style.padding = "7px";
   paragraph.style.borderRadius = "4px";
-  paragraph.style.borderColor = "gray";
   
   // 4. Set display: block on the p tag
   paragraph.style.display = "block";
